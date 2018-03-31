@@ -1,0 +1,67 @@
+/* --------------------------------------------------------- */
+/* !Home Slides */
+/* --------------------------------------------------------- */
+
+#home-slide-1 {
+	background-image: url(../images/Home_slide1.jpg);
+}
+#home-slide-2 {
+	background-image: url(../images/Home_slide2.jpg);
+}
+#home-slide-3 {
+	background-image: url(../images/Home_slide3.jpg);
+}
+
+
+/* --------------------------------------------------------- */
+/* !Quotes Block */
+/* --------------------------------------------------------- */
+
+#quotes {
+	background-image: url(../images/Parallax1.jpg);
+}
+
+
+/* --------------------------------------------------------- */
+/* !Tweets Block */
+/* --------------------------------------------------------- */
+
+#tweets {
+	background-image: url(../images/Parallax2.jpg);
+}
+
+
+/* --------------------------------------------------------- */
+/* !Services More */
+/* --------------------------------------------------------- */
+
+#services-more {
+	background-image: url(../images/Parallax3.jpg);
+}
+
+
+/* --------------------------------------------------------- */
+/* !Client Quotes Block */
+/* --------------------------------------------------------- */
+
+#client-quotes {
+	background-image: url(../images/Parallax4.jpg);
+}
+
+
+/* --------------------------------------------------------- */
+/* !Contact Block */
+/* --------------------------------------------------------- */
+
+#contact {
+	background-image: url(../images/Footer_Image.jpg);
+}
+
+
+/* --------------------------------------------------------- */
+/* !Blog Header */
+/* --------------------------------------------------------- */
+
+#blog-header {
+	background-image: url(../images/Parallax3.jpg);
+}

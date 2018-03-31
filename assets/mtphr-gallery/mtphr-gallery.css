@@ -1,0 +1,64 @@
+/**
+ * Metaphor Gallery
+ * Date: 6/25/2014
+ *
+ * @author Metaphor Creations
+ * @version 1.0.0
+ *
+ **/
+
+.mtphr-gallery-filter {
+	text-align: center;
+	margin-bottom: 45px;
+}
+.mtphr-gallery-loadmore {
+	text-align: center;
+	margin-top: 30px;
+}
+.mtphr-gallery-filter a,
+.mtphr-gallery-loadmore a {
+	margin: 3px;
+}
+.mtphr-gallery-content {
+	margin: -10px auto;	
+}
+.mtphr-gallery-block {
+	padding: 10px;
+}
+.isotope.mtphr-gallery-content,
+.isotope.mtphr-gallery-content .isotope-item.mtphr-gallery-block {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+      -ms-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.isotope.mtphr-gallery-content {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope.mtphr-gallery-content .isotope-item.mtphr-gallery-block {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition.mtphr-gallery-content,
+.isotope.no-transition.mtphr-gallery-content .isotope-item.mtphr-gallery-block,
+.isotope.mtphr-gallery-content .isotope-item.no-transition.mtphr-gallery-block {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}

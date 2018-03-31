@@ -1,0 +1,94 @@
+#color-switcher-container {
+	position: fixed;
+	left: -208px;
+	top: 100px;
+	z-index: 9999;
+}
+#color-switcher {
+	position: relative;
+	width: 208px;
+	background: #FFF;
+	border: 2px solid #CCC;
+	border-left: none;
+	padding: 17px 27px 30px;
+	border-bottom-right-radius: 5px
+}
+#color-switcher h3 {
+	font-size: 16px;
+	line-height: 16px;
+	color: #999;
+	text-transform: uppercase;
+	margin: 0;
+}
+#color-swatches {
+	margin: 28px 0;
+}
+.color-swatch {
+	float: left;
+	background: #FFF;
+	border: 2px solid transparent;
+	padding: 1px;
+	margin: 2px;
+}
+.color-swatch.active {
+	border-color: #666;
+}
+.color-swatch a {
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+
+#color-swatch-33cccc a {
+	background: #33cccc;
+}
+#color-swatch-33cc99 a {
+	background: #33cc99;
+}
+#color-swatch-cccc33 a {
+	background: #cccc33;
+}
+#color-swatch-cc3366 a {
+	background: #cc3366;
+}
+#color-swatch-cc3333 a {
+	background: #cc3333;
+}
+#color-swatch-cc6633 a {
+	background: #cc6633;
+}
+
+#color-switcher-toggle {
+	display: block;
+	width: 45px;
+	position: absolute;
+	right: -45px;
+	top: -2px;
+	background: #FFF;
+	border: 2px solid #CCC;
+	border-left: none;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 10px;
+}
+#color-switcher-toggle i {
+	display: block;
+	width: 25px;
+	height: 25px;
+	font-size: 25px;
+	-webkit-transition: color .25s ease;
+	transition: color .25s ease;
+}
+#color-switcher-toggle:hover i {
+	color: #33cccc;
+}
+#color-switcher-done {
+	display: block;
+	color: #999 !important;
+	border-color: #CCC;
+	margin: 0 3px;
+}
+#color-switcher-done:hover {
+	color: #33cccc !important;
+	border-color: #33cccc;
+}

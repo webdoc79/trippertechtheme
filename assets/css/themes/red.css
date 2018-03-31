@@ -1,0 +1,94 @@
+.no-touch a:hover,
+.apex-format-quote .entry-title,
+.apex-format-quote .entry-title a,
+.apex-format-tweet .entry-title,
+.apex-format-tweet .entry-title a,
+.entry-featured-data .entry-data,
+.entry-featured-icons a:hover i,
+.mtphr-slider-header a:hover i,
+.mtphr-rotator-footer a:hover i,
+.apex-contact-table a,
+#apex-totop:hover i,
+#site-footer a:hover,
+#color-switcher-toggle i,
+#color-switcher-toggle:hover i,
+.entry-meta a,
+.mtphr-rotator-header a:hover i,
+.apex-primary-menu-container li.active > a,
+.apex-primary-menu-container a:hover,
+.entry-comments:hover i,
+.search-container button[type="submit"]:hover,
+.mtphr-tabbed-posts-widget .entry-meta,
+.widget-twitter .twitter-date,
+.content-nav li a:hover,
+a#apex-totop-float:hover i {
+	color: #cc3333;
+}
+
+.btn,
+.apex-readmore, 
+.apex-readmore *,
+.mtphr-gallery-filter a.btn.active,
+.mtphr-gallery-filter a.btn:hover,
+.mtphr-gallery-loadmore a.btn:hover,
+#color-switcher-done:hover,
+#respond button[type="submit"].btn:hover,
+#commentscontainer .apex-reply:hover {
+	color: #cc3333 !important;
+}
+
+a.apex-icon-round:hover i,
+.apex-format-quote .entry-featured i,
+.apex-format-tweet .entry-featured i,
+.mtphr-slidegraph-fill,
+a.apex-icon:hover i,
+#site-footer .apex-icon:hover i,
+.widget-categories a:hover span.count,
+.tagcloud a:hover,
+.content-nav li span {
+	background-color: #cc3333;
+}
+
+.entry-featured-overlay,
+.apex-hero-menu-container a:hover {
+	background-color: rgba(204, 51, 51, .8);
+}
+
+.mtphr-slidegraph-fill-bg {
+	background-color: rgba(204, 51, 51, .2);
+}
+
+input.btn[type="submit"],
+button.btn[type="submit"] {
+	background-color: rgba(204, 51, 51, .1);
+}
+
+.apex-hero-menu-container a:hover,
+a.apex-icon-round:hover i,
+a.apex-icon-round:hover .apex-icon,
+.btn,
+.apex-format-quote .entry-featured,
+.apex-format-tweet .entry-featured,
+.mtphr-slider-header a:hover i,
+a.apex-icon:hover i,
+.mtphr-gallery-filter a.btn.active,
+.mtphr-gallery-filter a.btn:hover,
+.mtphr-gallery-loadmore a.btn:hover,
+.form-control:focus,
+.btn:hover,
+#color-switcher-done:hover,
+.mtphr-rotator-header a:hover i,
+blockquote,
+.widget-categories a:hover span.count,
+.tagcloud a:hover,
+.content-nav li span,
+.content-nav li a:hover,
+#respond button[type="submit"].btn:hover,
+#commentscontainer .apex-reply:hover,
+.mtphr-rotator-footer a:hover {
+	border-color: #cc3333;
+}
+
+.section-header-sep span {
+	border-top-color: #cc3333;
+}

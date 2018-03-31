@@ -1,0 +1,207 @@
+/* --------------------------------------------------------- */
+/* !Add Patterns */
+/* --------------------------------------------------------- */
+
+#apex-hero-overlay {
+	background-image: url(../images/overlays/05.png);
+	opacity: .2;
+}
+.apex-style-light .apex-section-overlay {
+	background-image: url(../images/overlays/05.png);
+	opacity: .05;
+}
+.apex-style-dark .apex-section-overlay {
+	background-image: url(../images/overlays/05.png);
+	opacity: .2;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Add Global Custom Highlight Colors */
+/* --------------------------------------------------------- */
+
+.no-touch a:hover,
+.apex-format-quote .entry-title,
+.apex-format-quote .entry-title a,
+.apex-format-tweet .entry-title,
+.apex-format-tweet .entry-title a,
+.entry-featured-data .entry-data,
+.entry-featured-icons a:hover i,
+.mtphr-slider-header a:hover i,
+.mtphr-rotator-footer a:hover i,
+.apex-contact-table a,
+#apex-totop:hover i,
+#site-footer a:hover,
+#color-switcher-toggle i,
+#color-switcher-toggle:hover i,
+.entry-meta a,
+.mtphr-rotator-header a:hover i,
+.apex-primary-menu-container li.active > a,
+.apex-primary-menu-container a:hover,
+.entry-comments:hover i,
+.search-container button[type="submit"]:hover,
+.mtphr-tabbed-posts-widget .entry-meta,
+.widget-twitter .twitter-date,
+.content-nav li a:hover,
+a#apex-totop-float:hover i {
+	color: #33cc99;
+}
+
+.btn,
+.apex-readmore, 
+.apex-readmore *,
+.mtphr-gallery-filter a.btn.active,
+.mtphr-gallery-filter a.btn:hover,
+.mtphr-gallery-loadmore a.btn:hover,
+#color-switcher-done:hover,
+#respond button[type="submit"].btn:hover,
+#commentscontainer .apex-reply:hover {
+	color: #33cc99 !important;
+}
+
+a.apex-icon-round:hover i,
+.apex-format-quote .entry-featured i,
+.apex-format-tweet .entry-featured i,
+.mtphr-slidegraph-fill,
+a.apex-icon:hover i,
+#site-footer .apex-icon:hover i,
+.widget-categories a:hover span.count,
+.tagcloud a:hover,
+.content-nav li span {
+	background-color: #33cc99;
+}
+
+.entry-featured-overlay,
+.apex-hero-menu-container a:hover {
+	background-color: rgba(51, 204, 153, .8);
+}
+
+.mtphr-slidegraph-fill-bg {
+	background-color: rgba(51, 204, 153, .2);
+}
+
+input.btn[type="submit"],
+button.btn[type="submit"] {
+	background-color: rgba(51, 204, 153, .1);
+}
+
+.apex-hero-menu-container a:hover,
+a.apex-icon-round:hover i,
+a.apex-icon-round:hover .apex-icon,
+.btn,
+.apex-format-quote .entry-featured,
+.apex-format-tweet .entry-featured,
+.mtphr-slider-header a:hover i,
+a.apex-icon:hover i,
+.mtphr-gallery-filter a.btn.active,
+.mtphr-gallery-filter a.btn:hover,
+.mtphr-gallery-loadmore a.btn:hover,
+.form-control:focus,
+.btn:hover,
+#color-switcher-done:hover,
+.mtphr-rotator-header a:hover i,
+blockquote,
+.widget-categories a:hover span.count,
+.tagcloud a:hover,
+.content-nav li span,
+.content-nav li a:hover,
+#respond button[type="submit"].btn:hover,
+#commentscontainer .apex-reply:hover,
+.mtphr-rotator-footer a:hover {
+	border-color: #33cc99;
+}
+
+.section-header-sep span {
+	border-top-color: #33cc99;
+}
+
+
+/* --------------------------------------------------------- */
+/* !Add Section Custom Highlight Color */
+/* --------------------------------------------------------- */
+
+.no-touch #quotes a:hover,
+#quotes .apex-format-quote .entry-title,
+#quotes .apex-format-quote .entry-title a,
+#quotes .apex-format-tweet .entry-title,
+#quotes .apex-format-tweet .entry-title a,
+#quotes .entry-featured-data .entry-data,
+#quotes .entry-featured-icons a:hover i,
+#quotes .mtphr-slider-header a:hover i,
+#quotes .mtphr-rotator-footer a:hover i,
+#quotes .apex-contact-table a,
+#quotes .entry-meta a,
+#quotes .mtphr-rotator-header a:hover i,
+#quotes .entry-comments:hover i,
+#quotes .search-container button[type="submit"]:hover,
+#quotes .mtphr-tabbed-posts-widget .entry-meta,
+#quotes .widget-twitter .twitter-date,
+#quotes .content-nav li a:hover {
+	color: #cc3366;
+}
+
+#quotes .btn,
+#quotes .apex-readmore, 
+#quotes .apex-readmore *,
+#quotes .mtphr-gallery-filter a.btn.active,
+#quotes .mtphr-gallery-filter a.btn:hover,
+#quotes .mtphr-gallery-loadmore a.btn:hover,
+#quotes #respond button[type="submit"].btn:hover,
+#quotes #commentscontainer .apex-reply:hover {
+	color: #cc3366 !important;
+}
+
+#quotes a.apex-icon-round:hover i,
+#quotes .apex-format-quote .entry-featured i,
+#quotes .apex-format-tweet .entry-featured i,
+#quotes .mtphr-slidegraph-fill,
+#quotes a.apex-icon:hover i,
+#quotes #site-footer .apex-icon:hover i,
+#quotes .widget-categories a:hover span.count,
+#quotes .tagcloud a:hover,
+#quotes .content-nav li span {
+	background-color: #cc3366;
+}
+
+#quotes .entry-featured-overlay {
+	background-color: rgba(204, 51, 102, 0.8);
+}
+
+#quotes .mtphr-slidegraph-fill-bg {
+	background-color: rgba(204, 51, 102, .2);
+}
+
+#quotes input.btn[type="submit"],
+#quotes button.btn[type="submit"] {
+	background-color: rgba(204, 51, 102, .1);
+}
+
+#quotes .apex-hero-menu-container a:hover,
+#quotes a.apex-icon-round:hover i,
+#quotes a.apex-icon-round:hover .apex-icon,
+#quotes .btn,
+#quotes .apex-format-quote .entry-featured,
+#quotes .apex-format-tweet .entry-featured,
+#quotes .mtphr-slider-header a:hover i,
+#quotes a.apex-icon:hover i,
+#quotes .mtphr-gallery-filter a.btn.active,
+#quotes .mtphr-gallery-filter a.btn:hover,
+#quotes .mtphr-gallery-loadmore a.btn:hover,
+#quotes .form-control:focus,
+#quotes .btn:hover,
+#quotes #color-switcher-done:hover,
+#quotes .mtphr-rotator-header a:hover i,
+#quotes blockquote,
+#quotes .widget-categories a:hover span.count,
+#quotes .tagcloud a:hover,
+#quotes .content-nav li span,
+#quotes .content-nav li a:hover,
+#quotes #respond button[type="submit"].btn:hover,
+#quotes #commentscontainer .apex-reply:hover,
+#quotes .mtphr-rotator-footer a:hover {
+	border-color: #cc3366;
+}
+
+#quotes .section-header-sep span {
+	border-top-color: #cc3366;
+}

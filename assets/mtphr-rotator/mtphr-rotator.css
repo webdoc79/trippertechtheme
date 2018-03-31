@@ -1,0 +1,83 @@
+/**
+ * Metaphor Rotator
+ * Date: 6/25/2014
+ *
+ * @author Metaphor Creations
+ * @version 1.0.0
+ *
+ **/
+
+.mtphr-rotator {
+	position: relative;
+}
+.mtphr-rotator-resource-container {
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	background: #000;
+}
+.mtphr-rotator-resource {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 0;
+	text-align: center;
+}
+.mtphr-rotator-resource img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+}
+.mtphr-rotator-wrapper {
+	position: relative;
+	min-height: 50px;
+}
+.mtphr-rotator-nav-prev,
+.mtphr-rotator-nav-next {
+	display: block;
+	position: absolute;
+	top: 50%;
+	z-index: 9999;
+	width: 15px;
+	height: 30px;
+	margin-top: -15px;
+}
+.mtphr-rotator-nav-prev {
+	left: 30px;
+	background-position: -80px 0;
+}
+.mtphr-rotator-nav-prev:hover {
+	background-position: -80px -40px;
+}
+.mtphr-rotator-nav-next {
+	right: 30px;
+	background-position: -60px 0;
+}
+.mtphr-rotator-nav-next:hover {
+	background-position: -60px -40px;
+}
+.mtphr-rotator-navigation a {
+	display: inline-block;
+	margin: 5px;
+}
+
+
+/* Clearfix
+------------------------------------------------------------ */
+
+.mtphr-clearfix {
+  *zoom: 1;
+}
+.mtphr-clearfix:before,
+.mtphr-clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.mtphr-clearfix:after {
+  clear: both;
+}
+
+
